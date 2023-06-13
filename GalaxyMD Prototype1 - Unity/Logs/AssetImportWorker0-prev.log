@@ -1,0 +1,568 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'de' Physical Memory: 32493 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/bus/GalaxyMD Prototype1 - Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62065
+Successfully changed project path to: C:/Users/bus/GalaxyMD Prototype1 - Unity
+C:/Users/bus/GalaxyMD Prototype1 - Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18276] Host "[IP] 25.2.145.112 [Port] 0 [Flags] 2 [Guid] 435763773 [EditorId] 435763773 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D3CN9R5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18276] Host "[IP] 25.2.145.112 [Port] 0 [Flags] 2 [Guid] 435763773 [EditorId] 435763773 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D3CN9R5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 163.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bus/GalaxyMD Prototype1 - Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007454 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 308 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 158.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1138ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (728ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (418ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (159ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bus\GalaxyMD Prototype1 - Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bus\GalaxyMD Prototype1 - Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 174.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.645 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1646ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1409ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (755ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 5755.
+Memory consumption went from 232.1 MB to 231.4 MB.
+Total: 3.998600 ms (FindLiveObjects: 0.465900 ms CreateObjectMapping: 0.182400 ms MarkObjects: 2.947300 ms  DeleteObjects: 0.401700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 298865.304190 seconds.
+  path: Assets/Aliens/GregShrooms 1.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/GregShrooms 1.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec99bfc25d47352ecb4bb4b261cc9bd') in 0.316786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.718917 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafc3c636aae9205a21106a2853b8ebc') in 0.029389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.544384 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7493ddfc88e00213eeb9154f98a99d') in 0.086884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.293390 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8972a4306f704b83aa3577adcd4690') in 0.045063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.727992 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e039b6bbea424ec4eb36f1c33bc59e') in 0.056870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.237871 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b544ac1faa1e934dc8a0ef5dcf296c2a') in 0.042403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.364691 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb894170f4c351d1f734d9736e895f42') in 0.045460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.192582 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902378b04dfe34b63ba24fd6613fd828') in 0.034138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.917837 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa75876095ca49db71885d7da03ed61') in 0.042327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.075818 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd865f6fa1d43a3e8833db80cc1add85d') in 0.039652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.887701 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704a093ef660f903cdb758359f4c94eb') in 0.039655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.357235 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16045c126697096b948089b9d9e9b61') in 0.040034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.481834 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e5d21e4322dd05ad2362e8021c90df') in 0.036068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.355871 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f236e755a90e984ea9b04dc638210e65') in 0.036109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.914102 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79842a2869e43fd064e17ec63cb62d9') in 0.036353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.754142 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10adff792dbcff21485771948861098e') in 0.035172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.992912 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb88afdda59905c7420d5b9f77763e1e') in 0.033239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.376623 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6b0568c3b7fa821d423cb7aae5e912') in 0.033915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.976916 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058faf42a9548e971aa402fd694ea10e') in 0.034080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.056028 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036c1d0d653a6d7f71a2edcf4c81eaa2') in 0.034623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.590081 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190c78c9bbaa94c826ca98c351c6ca9f') in 0.035116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.514575 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55036c09e9e6e7718b7add55d3307882') in 0.034557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.313622 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367f1aa459100b9a6c27ab078b16ebab') in 0.033507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.423518 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c1da0ec45e7a35e47029079d4e0e12') in 0.035240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.785367 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6364f8cfd0836bd2dd9c3daa0b826e36') in 0.035889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.861224 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cbf590ce3e099fe656dc3fbbffe22c') in 0.035285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.170497 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eba388f601170f837dcd446a025791a') in 0.033987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.877653 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23838aceecd38174457fc5799b2d1c') in 0.035052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.405772 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d40972c35138074b0f58f0f9808689') in 0.034212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.860284 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812ea6749a21660a7b2945cc89fbc433') in 0.030815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.390729 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95409344ecc29c0ff83373233d9ca8f1') in 0.034618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.001044 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f6d66ae24ce65d1d763bfe69f696c6') in 0.034395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.431772 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9296eb6b78e8be332fc6ebc1463622') in 0.030225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.245186 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758c603f02e2bcf166630cd190f86308') in 0.028988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.476076 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6236db62985589a2111e5daa3ce8dd59') in 0.031020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.591957 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a8a0a220acbb54a51e57177abc6f44') in 0.033342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.868762 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230aaf6249daa68cd83f209360334bc3') in 0.028844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.112522 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36fccc37e45f3f887f2cc7c6f66f31') in 0.035437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.190514 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f6de234c4ad74b5a4c97075a00463c') in 0.033219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.253510 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fd8a543474cebd90c9dcfe32a69ddd') in 0.032691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.191611 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87193a76921904834086b1207b16d7e') in 0.031368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.839964 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdcc185a536ba6d8b1df408591000ce') in 0.028729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580549 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9393834a660bcd3c8e777ba2718e61b4') in 0.031310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.996731 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bc87081b53f9d7e4a58e5102eea379') in 0.030823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.779014 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cdd473a9eed09299d704a16b5d715c') in 0.033623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.611699 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd050af30f46f2331adaf98d565e78671') in 0.031521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.185639 seconds.
+  path: Assets/Aliens/FancoiseShroomsTest.prefab
+  artifactKey: Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aliens/FancoiseShroomsTest.prefab using Guid(cc5cf231603d97143a3a9f5aabe151bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb15f941923b18bc34cb7514e52de97') in 0.034966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.062568 seconds.
+  path: Assets/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat
+  artifactKey: Guid(673fd4308d68a4e6eb452d59b21ff3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat using Guid(673fd4308d68a4e6eb452d59b21ff3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8296c9e752373af19f1f31d80f6cbbd') in 1.273073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.972972 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/Materials/White Explosion Glow.mat
+  artifactKey: Guid(dc7dcbbcbc727574395a53e2123792fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/Materials/White Explosion Glow.mat using Guid(dc7dcbbcbc727574395a53e2123792fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7079967036164a8b49b29dd6381be635') in 0.043925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221475 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/Meshes/Wheel.mat
+  artifactKey: Guid(08c88c17f9e23f641804d512a3000480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/Meshes/Wheel.mat using Guid(08c88c17f9e23f641804d512a3000480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456d31dca8364908b705c18558496262') in 0.046337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/Materials/Wet Yellow.mat
+  artifactKey: Guid(894bbd0dc6d80b44987e5124ae222d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/Materials/Wet Yellow.mat using Guid(894bbd0dc6d80b44987e5124ae222d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4571422979a26b99aa8a6918941a992') in 0.037737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/CW/PaintIn3D/Examples/Materials/White Explosion.mat
+  artifactKey: Guid(093b0e26f6e4cad4dab4da9fbc2c3baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/PaintIn3D/Examples/Materials/White Explosion.mat using Guid(093b0e26f6e4cad4dab4da9fbc2c3baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9bce993690060235eacd4d4f2934f0') in 0.028322 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bus\GalaxyMD Prototype1 - Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bus\GalaxyMD Prototype1 - Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1726ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1420ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5847.
+Memory consumption went from 240.2 MB to 239.5 MB.
+Total: 5.029300 ms (FindLiveObjects: 0.504000 ms CreateObjectMapping: 0.256800 ms MarkObjects: 3.775400 ms  DeleteObjects: 0.491700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

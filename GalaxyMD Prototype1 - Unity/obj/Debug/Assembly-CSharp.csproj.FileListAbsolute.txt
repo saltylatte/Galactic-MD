@@ -1,0 +1,2 @@
+C:\Users\bus\GalaxyMD Prototype1 - Unity\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\bus\GalaxyMD Prototype1 - Unity\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
